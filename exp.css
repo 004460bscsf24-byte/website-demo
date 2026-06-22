@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(19, 18, 18);
+    height: 100vh;
+    width: 100wh;
+    
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.hire{
+    background-color: rgb(19, 18, 18);
+    color: chartreuse;
+    width: 90px;
+    height: 44px;
+    border: 3px solid chartreuse;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: right;
+    cursor: pointer;
+    margin-top: -150px;
+    margin-right: 840px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.hire:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(96, 168, 24);
+    border: 1px chartreuse;
+}
+
+
+h1 {
+    color: chartreuse;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 5px;
+    padding-left: 98px;
+    
+
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-decoration: line-through  white 1px;
+
+}
+
+h2 {
+    position: absolute;
+    top: 35%;
+    left: 47.4%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+    font-weight: bolder;
+
+
+}
+
+
+   
+h3{
+    position: absolute;
+    color:rgb(255, 255, 255);
+    top: 43%;
+    left: 34%;
+    font-size:38px ;
+    font-weight: bold;
+    font-family: sans-serif;
+  
+
+
+}
+    
+h3 span{
+     
+      display: flex;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid chartreuse; 
+      animation: typing 2s linear forwards, blink 0.6s step-end infinite;
+    
+      margin-top: -43px;
+      padding-left: 60px;
+      font-size: 40px;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 78%; } 
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+span {
+    color: chartreuse;
+    
+
+}
+a{
+    text-decoration: none;
+}
+p{
+    position: absolute;
+    color: white;
+    top: 52%;
+    left: 34%;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;
+    
+}
+
+header {
+    height: 10vh;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(46, 44, 44);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+
+}
+
+li {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 25px;
+    margin: 12px;
+    margin-top: 10px;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+li:hover {
+    color: chartreuse;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+}
+/* .class li{
+color: chartreuse;
+text-decoration: underline;
+cursor: pointer;
+
+} */
+
+.main {
+    padding-left: 118px;
+    margin: 70px;
+}
+
+.main img {
+
+    border-radius: 37%;
+    object-fit: cover;
+    width: 18vw;
+    height: 70vh;
+    position: relative;
+
+}
